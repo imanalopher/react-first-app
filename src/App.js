@@ -13,7 +13,6 @@ class App extends React.Component {
     }
 
     handleChange(text) {
-        console.log(text);
         this.setState({ searchText: text.target.value });
     }
 
